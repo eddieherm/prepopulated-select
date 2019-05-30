@@ -22,9 +22,9 @@ class PrepopulatedSelect {
   createOptions(dropdown, data) {
     data.source.forEach(el => {
       let title, value;
-      if (data.transform) {
-        title = el[data.transform.title];
-        value = el[data.transform.value];
+      if (data.map) {
+        title = el[data.map.title];
+        value = el[data.map.value];
       } else {
         title = el.title;
         value = el.value;
