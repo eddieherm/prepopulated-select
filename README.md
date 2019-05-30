@@ -65,4 +65,24 @@ new PrepopulatedSelect('#container', {
     class : 'class-name'
   }
 });
+
+```
+## Setting Default Selected Option
+```javascript
+import PrepopulatedSelect from './PrepopulatedSelect.js';
+
+new PrepopulatedSelect('#container', {
+  id : 'countries',
+  data : {
+    source : myDataSource,
+    map : {
+      title : 'name',
+      value : 'id
+    },
+    default : 24 // set the default option based on value
+  },
+  style : {
+    class : 'class-name'
+  }
+});
 ```
