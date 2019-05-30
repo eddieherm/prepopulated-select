@@ -25,8 +25,8 @@ The data source must be an array of objects. The default keys are **title** and 
 ```javascript
 import PrepopulatedSelect from './PrepopulatedSelect.js';
 
-new PrepopulatedSelect('#container', {
-  id : 'countries',
+new PrepopulatedSelect('#container', { // #container is the target DOM element where the dropdown will be created
+  id : 'countries', // give your select element a unique id
   data : {
     source : myDataSource
   }
