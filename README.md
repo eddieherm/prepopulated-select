@@ -58,7 +58,7 @@ new PrepopulatedSelect('#container', {
     source : myDataSource,
     map : { // map the title and value for each option to a key in your data source
       title : 'name',
-      value : 'id
+      value : 'id'
     }
   },
   style : {
@@ -77,7 +77,7 @@ new PrepopulatedSelect('#container', {
     source : myDataSource,
     map : {
       title : 'name',
-      value : 'id
+      value : 'id'
     },
     default : 24 // set the default option based on value
   },
