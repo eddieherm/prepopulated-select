@@ -32,6 +32,11 @@ class PrepopulatedSelect {
       const option = document.createElement('option');
             option.text = title;
             option.value = value;
+
+      if (value === data.default) {
+        option.setAttribute('selected', '');
+      }
+
       dropdown.add(option);
     });
   }
